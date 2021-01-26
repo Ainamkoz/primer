@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    background-image: url('/images/slide9.jpg');
+    width: 100%; 
+    height: 100vh; 
+    background-position: center;
+    background-size: cover; 
+    padding-left: 10%;
+    padding-right: 10%; 
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 40px;
+}
+
+nav ul {
+    flex: 1; 
+    text-align: right; 
+}
+
+nav ul li {
+    display: inline-block; 
+    list-style: none; 
+    margin: 10px 10px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 16px; 
+    display: block; 
+    width:100px;
+    text-align:center;
+}
+
+a:hover {
+    color: rgba(252, 189, 134, 0.842); 
+    font-weight: bold; 
+}
+
+.container .highlight, h1  li .current a {
+    color: rgba(252, 189, 134, 0.842); 
+    font-weight: bold; 
+}
+
+.orderbtn {
+    background: rgba(252, 189, 134, 0.842);
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px 10px; 
+    border-radius: 30px;
+    margin-left: 25px; 
+    transition: transform 0.5s; 
+}
+
+.orderbtn:hover {
+    transform: scale(0.9);
+    color: white;
+}
+
+/* gallery section */
+
+#gallery {
+    padding-left: 10%;
+    padding-right: 10%; 
+    box-sizing: border-box;  
+    margin: 40px 0; 
+}
+
+#gallery h2 {
+    color: black;
+    font-weight: 500; 
+    font-size: 70px;
+    margin: 20px 12px; 
+    font-family: Tangerine;
+    text-align: center;
+}
+
+.cakesGallery {
+    display: flex; 
+    flex-flow:  wrap; 
+    margin: auto; 
+    width: 100%; 
+    position: relative;
+    max-height: 1500px;
+    vertical-align: baseline
+}
+
+.item {
+    width: 33.33%; 
+    padding: 12px; 
+    box-sizing: border-box; 
+    align-items: flex-end;
+
+}
+.item img {
+    width: 100%; 
+    cursor: pointer; 
+    transition: transform 1s; 
+}
+
+.item img:hover {
+    transform: scale(1.05);
+
+}
+
+
+/* about section */ 
+
+#about {
+    padding-left: 10%;
+    padding-right: 10%; 
+    box-sizing: border-box; 
+    margin-top: 400px;   
+    margin-bottom: 200px; 
+}
+
+#about h2 {
+    color: black; 
+    font-weight: 500; 
+    font-size: 80px; 
+    margin: 60px 0; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    font-family: Tangerine;
+
+}
+
+#about h2 p {
+    font-size: 18px; 
+    line-height: 30px;
+    color: black;
+}
+
+
+#inquiry {
+    margin-top: 100px; 
+    padding-left: 10%;
+    padding-right: 10%;  
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+#inquiry h2 {
+    padding: 10px 0 10px 0; 
+    letter-spacing: 0.5rem;
+    text-transform: uppercase; 
+}
+
+
+.form {
+    margin: auto; 
+    padding-left: 10%;
+    padding-right: 10%;  
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0;
+    position: relative;
+    display: block; 
+    text-align: center;
+}
+
+.form h4 {
+    letter-spacing: 0;
+    line-height: 1.6;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.event {
+    padding-left: 10%;
+    padding-right: 10%; 
+    box-sizing: border-box; 
+}
+
+.event input {
+    margin-bottom: 20px;
+    display: block;
+    padding: 5px; 
+    width: 100%; 
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+
+}
+
+.submitbtn input[type=submit] {
+    background: white;
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px 10px; 
+    border-radius: 15px;
+    margin-top: 10px; 
+    transition: transform 0.5s; 
+    width: 30%; 
+    border: 1px solid #D7B740;
+}
+
+.submitbtn input[value="Send an Inquiry"] {
+    font-size: 16px; 
+    padding: 10px; 
+    text-transform: uppercase;
+    color: black;
+    font-weight: 100; 
+    
+}
+  
+.submitbtn input[type=submit]:hover {
+    background-color: #D7B740; 
+    color: white
+  }
+
+
+#contact {
+    padding-left: 10%;
+    padding-right: 10%; 
+    box-sizing: border-box; 
+    margin-top: 400px; 
+    margin-bottom: 200px;   
+    justify-content: center;
+    display: block;
+    font-size: 0;
+    clear: both;
+    border-top: #D7B740 3px solid;
+}
+
+#contact  h2 {
+    font-size: 40px;
+}
+
+#contact  h3 {
+    font-size: 20px; 
+}
