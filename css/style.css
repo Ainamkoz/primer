@@ -251,3 +251,7 @@ a:hover {
 #contact  h3 {
     font-size: 20px; 
 }
+
+.client img {
+    display: flex;
+}
