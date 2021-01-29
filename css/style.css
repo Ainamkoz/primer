@@ -127,8 +127,8 @@ a:hover {
     padding-left: 10%;
     padding-right: 10%; 
     box-sizing: border-box; 
-    margin-top: 400px;   
-    margin-bottom: 200px; 
+    margin-bottom: 200px;
+    margin-top: 50%;  
 }
 
 #about h2 {
@@ -139,13 +139,14 @@ a:hover {
     text-align: center; 
     margin-bottom: 40px; 
     font-family: Tangerine;
-
 }
 
-#about h2 p {
-    font-size: 18px; 
+#about p {
+    font-size: 20px; 
     line-height: 30px;
     color: black;
+    text-justify:distribute;
+   
 }
 
 
@@ -250,8 +251,4 @@ a:hover {
 
 #contact  h3 {
     font-size: 20px; 
-}
-
-.client img {
-    display: flex;
 }
